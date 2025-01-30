@@ -1,0 +1,6 @@
+// Create a new SpeevhSynthesisUtterance object
+const utterance =new SpeechSynthesisUtterance(text);
+
+
+//Speak the text
+window.speechSynthesis.speak(utterance);
